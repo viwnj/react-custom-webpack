@@ -1,0 +1,33 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode development",
+    "dev": "webpack-dev-server"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2",
+    "react-dev-utils": "^9.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.4.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-loader": "^3.0.0",
+    "eslint-plugin-react": "^7.14.3",
+    "file-loader": "^4.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
